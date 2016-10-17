@@ -1,0 +1,29 @@
+/////////////////////////////////////////////////////////////////
+//    71st Special Operations Group Default Description.ext    //
+//    Created by the 71st SOG Development Team                 //
+//    Visit us on the web http://71stsog.com                   //  
+//    Teamspeak 3:  ts3.71stsog.com                            //
+/////////////////////////////////////////////////////////////////
+
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 50;
+};
+
+author = "71st SOG Dev Team";
+onLoadName = "71st Alive Session Operations V1"; 
+OnLoadMission = "Carpe Diem";
+loadScreen =  "71STOGLOADING2.jpg"; 
+Saving = 0;
+disabledAI = 1;
+
+respawn = 3;
+respawnTemplates[] = {"MenuPosition"};
+respawnDelay = 1;
+respawnOnStart = 0;
+enableDebugConsole = 1;
+showGPS = 1;
+disableChannels[]={0,2,3,4,5,6};
